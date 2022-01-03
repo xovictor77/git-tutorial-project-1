@@ -1,0 +1,147 @@
+/* General code */
+
+*{
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+
+}
+
+
+html{
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;  
+}
+
+
+
+body{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+}
+
+/* end of general code */
+
+
+/* Header code */
+
+header h1{
+    text-align: center;
+}
+
+
+/* End of header code */
+
+
+
+/* Nav code */
+
+ul{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 2vw;
+    padding-right: 1vw;
+}
+li{
+ flex: 1 1 auto;   
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+nav ul li a:hover{
+    font-size: 1.1rem;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    color: rgb(253, 253, 253);
+}
+
+
+
+nav img{
+    display: inline;
+    border-radius: 10px;
+}
+
+@media screen and (min-width:1080px){
+nav img{
+  margin-right: 10vw;  
+}
+
+
+}
+
+/* End of nav code */
+
+
+
+/* Main code */
+
+main{
+    width: 50%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+main form{
+    display: flex;
+   flex-direction: column;
+
+}
+
+
+.the-form{
+    background-color: rgba(225, 225, 225, .3);
+    padding: 2vw;
+    margin: 0 0 2rem 0;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 2px rgb(228, 228, 228)  inset   ;
+}
+
+.the-form input{
+    border: .5px solid gray;
+    border-radius: 5px;
+    background-color: rgba(225, 225, 225, .3)   ;
+}
+
+.the-form input:hover{
+    border: 1px solid rgb(103, 182, 103);
+    transition-timing-function: linear;
+    transition-duration: 0.4s;
+    box-shadow: 0 0 1px 1px rgb(103, 182, 103);
+}
+
+.the-form .enter{
+    background-color: white;
+    border: none;
+}
+
+
+
+
+
+/* End of main code */
+
+/* container */
+
+#container{
+    background-image: url("computer background.JPG");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+/* end of container */
