@@ -126,6 +126,7 @@ main form{
 .the-form .enter{
     background-color: white;
     border: none;
+    cursor: pointer;
 }
 
 
